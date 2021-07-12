@@ -10,10 +10,10 @@
     }
     .btn-primary {
         @apply
-        btn bg-indigo-500 text-white
-        hover:bg-indigo-400
-        focus:ring-indigo-500 focus:ring-opacity-50
-        active:bg-indigo-600
+        btn bg-brand text-white
+        hover:bg-brand-light
+        focus:ring-brand focus:ring-opacity-50
+        active:bg-brand-dark
     }
     .btn-secondary {
         @apply

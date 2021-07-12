@@ -20,7 +20,7 @@ export default function App() {
         "
         >
           <div className="xl:max-w-xl">
-            <img className="h-10" src="/img/logo.svg" alt="Workcation" />
+            <img className="h-10" src="/img/logo-brand.svg" alt="Workcation" />
             <img
               className="
               mt-6
@@ -37,6 +37,8 @@ export default function App() {
               className="
               mt-6
               text-2xl
+              font-headline
+              tracking-tight
               font-bold
               text-gray-900
               sm:mt-8 sm:text-4xl
@@ -45,7 +47,7 @@ export default function App() {
             "
             >
               You can work from anywhere. <br className="hidden lg:inline" />
-              <span className="text-indigo-500">Take advantage of it.</span>
+              <span className="text-brand">Take advantage of it.</span>
             </h1>
             <p className="mt-2 text-gray-600 sm:mt-4 sm:text-xl">
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab
